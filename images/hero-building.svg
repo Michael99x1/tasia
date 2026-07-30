@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="600" fill="#0B4F45"/>
+  <rect width="800" height="600" fill="url(#skyfade)"/>
+  <defs>
+    <linearGradient id="skyfade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#146B5B" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0B4F45" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ground -->
+  <rect x="0" y="470" width="800" height="130" fill="#0E5E51"/>
+
+  <!-- main building block -->
+  <rect x="140" y="180" width="520" height="300" fill="#E4EFEB"/>
+  <rect x="140" y="180" width="520" height="300" fill="none" stroke="#0B4F45" stroke-width="2"/>
+
+  <!-- entrance canopy -->
+  <rect x="330" y="380" width="140" height="100" fill="#FFFFFF"/>
+  <rect x="318" y="368" width="164" height="16" fill="#D9A441"/>
+  <rect x="380" y="410" width="40" height="70" fill="#0B4F45"/>
+
+  <!-- windows grid -->
+  <g fill="#146B5B" opacity="0.85">
+    <rect x="168" y="210" width="46" height="60"/>
+    <rect x="230" y="210" width="46" height="60"/>
+    <rect x="292" y="210" width="46" height="60"/>
+    <rect x="354" y="210" width="46" height="60"/>
+    <rect x="416" y="210" width="46" height="60"/>
+    <rect x="478" y="210" width="46" height="60"/>
+    <rect x="540" y="210" width="46" height="60"/>
+    <rect x="602" y="210" width="46" height="60"/>
+
+    <rect x="168" y="300" width="46" height="60"/>
+    <rect x="230" y="300" width="46" height="60"/>
+    <rect x="292" y="300" width="46" height="60"/>
+    <rect x="546" y="300" width="46" height="60"/>
+    <rect x="602" y="300" width="46" height="60"/>
+  </g>
+
+  <!-- side wing -->
+  <rect x="40" y="300" width="100" height="180" fill="#D6E6E0"/>
+  <rect x="660" y="260" width="110" height="220" fill="#D6E6E0"/>
+
+  <!-- medical cross sign on facade -->
+  <g transform="translate(400,120)">
+    <rect x="-14" y="-40" width="28" height="80" rx="6" fill="#D9A441"/>
+    <rect x="-40" y="-14" width="80" height="28" rx="6" fill="#D9A441"/>
+  </g>
+
+  <!-- flag pole accent -->
+  <line x1="700" y1="480" x2="700" y2="380" stroke="#D9A441" stroke-width="4"/>
+  <path d="M700 380 L 750 396 L 700 412 Z" fill="#D9A441"/>
+
+  <!-- palm tree accents -->
+  <g transform="translate(90,470)">
+    <rect x="-4" y="-70" width="8" height="70" fill="#0E5E51"/>
+    <path d="M0 -70 C -30 -80, -40 -60, -50 -55 C -30 -58, -12 -66, 0 -70" fill="#5FA98F"/>
+    <path d="M0 -70 C 30 -80, 40 -60, 50 -55 C 30 -58, 12 -66, 0 -70" fill="#5FA98F"/>
+    <path d="M0 -70 C -6 -95, 6 -95, 0 -70" fill="#5FA98F"/>
+  </g>
+  <g transform="translate(730,480)">
+    <rect x="-3" y="-55" width="6" height="55" fill="#0E5E51"/>
+    <path d="M0 -55 C -22 -63, -30 -48, -38 -44 C -22 -46, -9 -52, 0 -55" fill="#5FA98F"/>
+    <path d="M0 -55 C 22 -63, 30 -48, 38 -44 C 22 -46, 9 -52, 0 -55" fill="#5FA98F"/>
+  </g>
+
+  <!-- driveway -->
+  <rect x="0" y="480" width="800" height="10" fill="#D9A441" opacity="0.6"/>
+</svg>

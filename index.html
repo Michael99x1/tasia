@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasia Hospital  Quality Private Healthcare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="images/logo-mark.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="wrap">
+    <div class="topbar-item topbar-emergency">● Emergency Line: +234 90996258414 open 24/7</div>
+    <div style="display:flex;gap:22px;flex-wrap:wrap;">
+      <div class="topbar-item">Admin@tasiahospital.com.ng</div>
+      <div class="topbar-item">Plot 331, Kutunku, Gwagwalada, Abuja</div>
+      <div class="topbar-item"><span class="dot"></span> Mon–Sat, 7:00am–8:00pm · Emergency 24/7</div>
+    </div>
+  </div>
+</div>
+<!-- HEADER -->
+<header class="site">
+  <div class="wrap nav">
+    <div class="brand">
+      <div class="brand-mark">
+        <img src="images/logo-mark.svg" width="30" height="30" alt="Tasia Hospital logo mark" style="display:block;">
+      </div>
+      <div class="brand-name">Tasia Hospital<small>Private Hospital &amp; Clinics</small></div>
+    </div>
+    <nav class="links">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="departments.html">Departments</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="burger" aria-label="Toggle menu"><span></span></button>
+    <div class="nav-cta">
+      <a class="btn btn-red" href="contact.html">Emergency</a>
+      <a class="btn btn-primary" href="contact.html#appointment">Book Appointment</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow">Private Hospital · Gwagwalada, Abuja</div>
+        <h1>Careful, modern healthcare  close to home.</h1>
+        <p class="lead">Tasia Hospital brings together general and specialist care under one roof: from routine checkups and maternity to surgery, diagnostics, and round‑the‑clock emergency response. Real doctors, real follow‑up, no long detours to get well.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="contact.html#appointment">Book an Appointment</a>
+          <a class="btn btn-outline" href="departments.html">Explore Departments</a>
+        </div>
+        <div class="trust-row">
+          <div class="trust-item"><div class="num">37+</div><div class="lbl">Years in Service</div></div>
+          <div class="trust-item"><div class="num">9+</div><div class="lbl">Resident &amp; Visiting Doctors</div></div>
+          <div class="trust-item"><div class="num">9</div><div class="lbl">Core Departments</div></div>
+          <div class="trust-item"><div class="num">24/7</div><div class="lbl">Emergency Response</div></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-photo" style="background:none;padding:0;">
+            <img src="images/health1.jpg" alt="Illustration of the Tasia Hospital Services" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+            <span class="tag" style="position:relative;">Tasia Hospital · Best in Health</span>
+          </div>
+        </div>
+        <div class="float-widget">
+          <h4>Quick Check</h4>
+          <div class="float-row"><span>OPD wait time</span><span class="status-ok">~20 min</span></div>
+          <div class="float-row"><span>Emergency beds</span><span class="status-ok">Available</span></div>
+          <div class="float-row"><span>Pharmacy</span><span class="status-ok">Open</span></div>
+          <div class="float-row"><span>Doctor on duty</span><span class="status-ok">Available</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LIVE STATUS STRIP -->
+<div class="status-strip">
+  <div class="wrap">
+    <div class="status-head">
+      <h3>Today at Tasia Hospital</h3>
+      <div class="clock" id="liveClock">Loading current time…</div>
+    </div>
+    <div class="status-grid">
+      <div class="status-cell">
+        <div class="k">Emergency Unit</div>
+        <div class="v">Open</div>
+        <span class="pill"><span class="dot"></span>7 beds free</span>
+      </div>
+      <div class="status-cell">
+        <div class="k">General Outpatient</div>
+        <div class="v">~20 min wait</div>
+        <span class="pill busy"><span class="dot"></span>Moderately busy</span>
+      </div>
+      <div class="status-cell">
+        <div class="k">Maternity Ward</div>
+        <div class="v">4 rooms free</div>
+        <span class="pill"><span class="dot"></span>Admitting</span>
+      </div>
+      <div class="status-cell">
+        <div class="k">Pharmacy</div>
+        <div class="v">Fully stocked</div>
+        <span class="pill"><span class="dot"></span>Open now</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT TEASER -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-figure">
+      <img src="images/health2.jpg" alt="Illustration of a Tasia Hospital patient ward" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+      <div class="caption">Putting Your Health First</div>
+    </div>
+    <div>
+      <div class="eyebrow">About Us</div>
+      <h2>Healthcare built around the people who walk through our doors.</h2>
+      <p>Tasia Hospital is a private hospital in Gwagwalada, Abuja offering general and specialist medical care to families, workers, and the wider community. We were established to close a simple gap: reliable, well‑staffed private care that doesn't require travelling across the city or waiting weeks for an appointment.</p>
+      <p>Our team of resident and visiting doctors, nurses, laboratory scientists, and pharmacists work across nine core departments, supported by an in‑house laboratory and pharmacy so that diagnosis, treatment, and follow‑up happen without unnecessary delay.</p>
+      <a class="btn btn-outline" href="about.html">Read Our Full Story</a>
+    </div>
+  </div>
+</section>
+
+<!-- DEPARTMENTS TEASER -->
+<section style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Departments</div>
+        <h2>Nine departments. One hospital.</h2>
+      </div>
+      <p>Every department is staffed by dedicated doctors and nurses and connects directly to our in‑house laboratory and pharmacy.</p>
+    </div>
+
+    <div class="dept-grid">
+      <div class="dept-card">
+        <svg class="dept-icon" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.2" stroke="currentColor" stroke-width="1.6"/><path d="M5 21c0-4 3.1-6.5 7-6.5S19 17 19 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <h4>General Outpatient</h4>
+        <p>Walk‑in consultations, diagnosis, and treatment for everyday illness and ongoing conditions.</p>
+        <div class="dept-meta">Mon–Sat · Walk‑in &amp; appointment</div>
+      </div>
+      <div class="dept-card">
+        <svg class="dept-icon" viewBox="0 0 24 24" fill="none"><path d="M12 3v6M12 3l4 2M12 3 8 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><rect x="5" y="10" width="14" height="10" rx="1.5" stroke="currentColor" stroke-width="1.6"/></svg>
+        <h4>Surgery</h4>
+        <p>Elective and emergency surgical procedures with dedicated post‑operative recovery care.</p>
+        <div class="dept-meta">By referral &amp; appointment</div>
+      </div>
+      <div class="dept-card">
+        <svg class="dept-icon" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.35-9.3-8.8C1.2 8.9 3 6 6 6c2 0 3.4 1.2 4 2.4C10.6 7.2 12 6 14 6c3 0 4.8 2.9 3.3 6.2C15 16.65 12 21 12 21z" stroke="currentColor" stroke-width="1.5"/></svg>
+        <h4>Maternity</h4>
+        <p>Antenatal care, safe delivery, and postnatal support with an on‑call obstetric team.</p>
+        <div class="dept-meta">24/7 delivery unit</div>
+      </div>
+      <div class="dept-card">
+        <svg class="dept-icon" viewBox="0 0 24 24" fill="none"><path d="M4 12h4l2-6 4 12 2-6h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h4>Emergency Care</h4>
+        <p>24‑hour emergency response with direct access to surgery and the laboratory.</p>
+        <div class="dept-meta">Open 24/7 · +234 80111111119</div>
+      </div>
+      <div class="dept-card">
+        <svg class="dept-icon" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 9h8M8 13h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <h4>Laboratory</h4>
+        <p>In‑house diagnostic testing with same‑day results for most routine tests.</p>
+        <div class="dept-meta">Mon–Sat, 7am–7pm</div>
+      </div>
+      <div class="dept-card">
+        <svg class="dept-icon" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="7" r="3" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="9" r="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6M15 20c0-2.4-1-4.4-2.6-5.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <h4>Pediatrics</h4>
+        <p>Child‑focused care from infancy through adolescence, including immunisation.</p>
+        <div class="dept-meta">Mon–Sat · Walk‑in &amp; appointment</div>
+      </div>
+    </div>
+    <p style="margin-top:26px;font-size:.85rem;"><a href="departments.html" style="color:var(--teal-900);font-weight:600;text-decoration:underline;">View all 9 departments →</a></p>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Why Choose Us</div>
+        <h2>What patients notice first.</h2>
+      </div>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-num">01</div>
+        <h4>Same‑visit diagnostics</h4>
+        <p>Our in‑house lab and pharmacy mean most patients leave with results and medication the same day.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">02</div>
+        <h4>24/7 emergency unit</h4>
+        <p>A dedicated emergency team and resuscitation bay, staffed around the clock, every day of the year.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">03</div>
+        <h4>Consistent follow‑up</h4>
+        <p>Patients are assigned a doctor for ongoing conditions, not a different face at every visit.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-num">04</div>
+        <h4>HMO &amp; insurance friendly</h4>
+        <p>We work directly with major HMOs, so care doesn't stall on paperwork.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="test-strip">
+  <div class="wrap">
+    <div class="eyebrow" style="color:#9FC9BE;">Patient Notes</div>
+    <h2 style="color:#fff;max-width:20ch;">What visits to Tasia Hospital sound like.</h2>
+    <div class="test-grid" style="margin-top:36px;">
+      <div class="test-card">
+        <p>"I was attended to within twenty minutes of walking in, and my lab results were ready before I left."</p>
+        <div class="test-name"> Patient, Outpatient</div>
+      </div>
+      <div class="test-card">
+        <p>"The maternity team explained every step and checked on me daily after delivery."</p>
+        <div class="test-name"> Patient, Maternity</div>
+      </div>
+      <div class="test-card">
+        <p>"My father's blood pressure has been properly managed since we started coming here."</p>
+        <div class="test-name"> Patient, General Outpatient</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSURANCE -->
+<section style="padding:70px 0;">
+  <div class="wrap">
+    <div class="eyebrow">HMOs &amp; Insurance</div>
+    <h3 style="font-weight:600;">We work with HMOs, insurance providers, and corporate retainerships</h3>
+    <p style="max-width:60ch;">Contact our front desk with your provider name to confirm coverage before your visit.</p>
+    <div class="insure-row">
+      <div class="insure-chip">HMO plans</div>
+      <div class="insure-chip">Private health insurance</div>
+      <div class="insure-chip">Corporate retainership</div>
+      <div class="insure-chip">Self‑pay</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="padding-top:0;">
+  <div class="wrap">
+    <div class="appt-block" style="grid-template-columns:1fr;text-align:center;padding:60px 40px;">
+      <div>
+        <div class="eyebrow" style="justify-content:center;">Ready When You Are</div>
+        <h2>Book your visit to Tasia Hospital today.</h2>
+        <p style="max-width:50ch;margin:0 auto 26px;">Our front desk confirms most appointment requests within a few hours during opening times.</p>
+        <a class="btn btn-primary" href="contact.html#appointment">Book an Appointment</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="brand-name" style="color:#fff;">Tasia Hospital</div>
+        <p style="color:#8FB3A9;font-size:.88rem;margin-top:12px;max-width:32ch;">Private hospital and clinics offering general and specialist care, diagnostics, and 24/7 emergency response in Gwagwalada, Abuja.</p>
+      </div>
+      <div>
+        <h5>Departments</h5>
+        <a href="departments.html">General Outpatient</a>
+        <a href="departments.html">Surgery</a>
+        <a href="departments.html">Maternity</a>
+        <a href="departments.html">Emergency Care</a>
+      </div>
+      <div>
+        <h5>Hospital</h5>
+        <a href="about.html">About Us</a>
+        <a href="contact.html#appointment">Book Appointment</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h5>Reach Us</h5>
+        <a href="#">+234 80111111119</a>
+        <a href="#">Admin@tasiahospital.com.ng</a>
+        <a href="#">Plot 331, Kutunku, Gwagwalada, Abuja</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Tasia Hospital. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function updateClock(){
+    var now = new Date();
+    var opts = { weekday:'long', hour:'2-digit', minute:'2-digit' };
+    document.getElementById('liveClock').textContent = now.toLocaleString('en-GB', opts);
+  }
+  updateClock();
+  setInterval(updateClock, 30000);
+</script>
+
+<script src="js/nav.js"></script>
+</body>
+</html>
